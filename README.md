@@ -7,6 +7,7 @@ B -- Subscription --> C(Cloud Function)
 C -- Send Message--> D(Telegram)
 ```
 
+Deploy cloud function
 ```console
 gcloud functions deploy alert_notification \
 --runtime=python37 --region=asia-southeast2 \
