@@ -1,4 +1,4 @@
-Sending gcp monitoring alerts to telegram
+## Sending gcp monitoring alerts to telegram
 
 ```mermaid
 graph LR
