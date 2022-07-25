@@ -8,5 +8,7 @@ C -- Send Message--> D(Telegram)
 ```
 
 ```console
-gcloud functions deploy alert_notification --runtime=python37 --region=asia-southeast2 --trigger-topic=notification --entry-point=notification_pubsub
+gcloud functions deploy alert_notification \
+--runtime=python37 --region=asia-southeast2 \
+--trigger-topic=notification --entry-point=notification_pubsub
 ```
